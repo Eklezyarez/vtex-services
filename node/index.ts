@@ -1,10 +1,12 @@
 import {
+  
   LRUCache,
   Service,
   ServiceContext,
   ParamsContext,
   RecorderState,
   method,
+  
 } from '@vtex/api'
 
 import { Clients } from './clients'
