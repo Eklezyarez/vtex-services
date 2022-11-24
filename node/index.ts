@@ -15,6 +15,7 @@ import { analytics } from './handlers/analytics'
 
 const memoryCache = new LRUCache<string, any>({ max: 5000 })
 metrics.trackCache('status', memoryCache)
+
 declare global {
   type Context = ServiceContext<Clients, State>
 
