@@ -4,8 +4,7 @@ import {
   ServiceContext,
   ParamsContext,
   RecorderState,
-  method,
-  
+  method,  
 } from '@vtex/api'
 
 import { Clients } from './clients'
