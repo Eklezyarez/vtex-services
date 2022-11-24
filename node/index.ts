@@ -6,6 +6,7 @@ import {
   RecorderState,
   method,
 } from '@vtex/api'
+
 import { Clients } from './clients'
 import { analytics } from './handlers/analytics'
 
